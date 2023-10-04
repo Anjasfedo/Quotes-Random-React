@@ -19,15 +19,17 @@ export default function App() {
   console.log(kutipan)
 
   return (
-    <div class="card text-center">
-      <div class="card-header">
-        <h5 class="card-title">{nama}</h5>
-      </div>
-      <div class="card-body" style={{ height: '100px' }}>
-        <p class="card-text">{kutipan}</p>
-      </div>
-      <div class="card-footer text-body-secondary">
-        <button onClick={handleClicked} className="btn btn-primary">Ubah Quotes</button>
+    <div>
+      <div class="card text-center col-md-6 mx-auto">
+        <div class="card-header">
+          <h5 class="card-title">{nama}</h5>
+        </div>
+        <div class="card-body" style={{ height: '70px' }}>
+          <p class="card-text">{kutipan}</p>
+        </div>
+        <div class="card-footer text-body-secondary">
+          <button onClick={handleClicked} className="btn btn-primary">Ubah Quotes</button>
+        </div>
       </div>
     </div>
   );
