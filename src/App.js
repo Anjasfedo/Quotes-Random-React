@@ -24,7 +24,7 @@ export default function App() {
         <div class="card-header">
           <h5 class="card-title">{nama}</h5>
         </div>
-        <div class="card-body" style={{ height: '70px' }}>
+        <div class="card-body" style={{ height: '90px' }}>
           <p class="card-text">{kutipan}</p>
         </div>
         <div class="card-footer text-body-secondary">
